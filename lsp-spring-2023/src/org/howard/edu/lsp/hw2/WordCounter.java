@@ -2,7 +2,7 @@
 *  Name: Angelica Stewart
 */
 
-package org.howard.edu.lsp.assignment2;
+package org.howard.edu.lsp.hw2;
 
 import java.io.File;
 
@@ -45,7 +45,7 @@ public class WordCounter {
 	}
 	public static void main(String[] args) throws FileNotFoundException {
 		Map <String, Integer> words = new HashMap <String, Integer>();
-		counter("C:\\Users\\angel\\git\\LSP_potato\\lsp-spring-2023\\src\\org\\howard\\edu\\lsp\\assignment2\\words.txt", words);
+		counter("src/main/java/resources/words.txt", words);
 		System.out.print(words);
 		
 	}
